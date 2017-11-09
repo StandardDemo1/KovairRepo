@@ -14,7 +14,7 @@ public class React {
 		        try {
 		           
 		           con.setAutoCommit(true);
-		            pstmt = con.prepareStatement("UPDATE COFFEES " +
+		            pstmt = con.prepareStatement("UPDATE COFFEES and " +
 		                        "SET PRICE = ? " +
 		                        "WHERE COF_NAME = ?");
 		            pstmt.setFloat(1, price);
