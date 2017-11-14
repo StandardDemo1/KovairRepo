@@ -5,7 +5,7 @@ public class CodeFile2 {
 	public static void main(String[] args) {
 		try{  
 		    int a[]=new int[5];  
-		    a[5]=30/0;  
+		    a[5]=30/0;  // new value assigned
 		   }  
 		   catch(ArithmeticException e){System.out.println("task1 is completed mod1");}  
 		   catch(ArrayIndexOutOfBoundsException e){System.out.println("task 2 completed");}  
