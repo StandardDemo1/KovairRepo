@@ -1,39 +1,18 @@
 package Demo3;
-import java.sql.*;
-import javax.sql.*;
-import javax.naming.*;
-
-
-public class React {
-
-	public static void main(String[] args) {
-		
-	
-		        Connection con;
-		        PreparedStatement pstmt;
-		        try {
-		           
-		           con.setAutoCommit(true);
-		            pstmt = con.prepareStatement("UPDATE COFFEES and " +
-		                        "SET PRICE = ? " +
-		                        "WHERE COF_NAME = ?");
-		            pstmt.setFloat(1, price);
-		            pstmt.setString(2, cofName);
-		            pstmt.executeUpdate();
-
-		            con.commit();
-		            pstmt.close();
-
-		        } finally {
-		            if (con != null) con.close();
-		        }
-		    }
-
-		    private DataSource ds = null;
-		    private Context ctx = null;
-		}
-
-
+public class React
+{
+	public static void main(String[] args)
+	{	final int NUM_FACTS = 100;
+		for(int i = 0; i < NUM_FACTS; i++)
+			System.out.println( i + "! is " + factorial(i));
 	}
+	
+	public static int factorial(int n)
+	{	int result = 1;
+		for(int i = 2; i <= n; i++)
+			result *= i;
+		return result;
+	}
+}
 
 
