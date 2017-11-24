@@ -9,7 +9,7 @@ public class CodeFile3 {
 		  
 		  temp=n;    
 		  while(n>0){    
-		   r=n%10;  //getting remainder  
+		   r=n%10;  //getting remainder mod
 		   sum=(sum*10)+r;    
 		   n=n/10;    
 		  }    
