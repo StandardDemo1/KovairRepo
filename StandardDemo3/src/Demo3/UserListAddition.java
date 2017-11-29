@@ -12,6 +12,7 @@ public class UserListAddition {
         userList.add("User B");
         userList.add("User C");
         userList.add("User D");
+        userList.add("User E"); //Lite User Addition US1538
  
         //Re check the size after adding elements
         System.out.println("Size of ArrayList after adding elements: " + userList.size());
