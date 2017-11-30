@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class UserListAddition {
 
 	public static void main(String[] args) {
-		//Creating a generic ArrayList to Add Users
+		//Creating a generic ArrayList to Add Users 
         ArrayList<String> userList = new ArrayList<String>();
         //Adding User into list
         userList.add("User A");
