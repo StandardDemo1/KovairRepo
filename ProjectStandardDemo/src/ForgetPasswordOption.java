@@ -2,7 +2,7 @@
 public class ForgetPasswordOption {
 
 
-    // class constant for default size 6
+    // class constant for default size 6 
     private static final int DEFAULT_CAP = 10;
     
     //instance variables
