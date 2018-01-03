@@ -11,7 +11,7 @@ public class ForgotPasswordOption {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		String s1;
+		String s3;
 	    String s2;
 
 	    double num1, num2, product;
