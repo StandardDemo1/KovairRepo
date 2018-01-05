@@ -22,13 +22,13 @@ public class Product {
  
     for (c = 0; c < n; c++)
     {
-      if (array[c] == search)     /* Searching element is present */
+      if (array[c] == search)     /* Codefile for Requirement 9 */
       {
          System.out.println(search + " is present at location " + (c + 1) + ".");
           break;
       }
    }
-   if (c == n)  /* Searching element is absent */
+   if (c == n)  
       System.out.println(search + " is not present in array.");
   }
 }
