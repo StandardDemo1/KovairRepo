@@ -83,11 +83,11 @@ public class ForgetPasswordOption {
         return result;
     }
     
-    // Would not really have this and toString available for ID 1244
+    // Would not really have this and toString available for ID 1248
     // both included just for testing
     public String toStringUsingStringBuffer(){
         StringBuffer result = new StringBuffer();
-        result.append( "size: " );
+        result.append( "Size: " );
         result.append( iSize );
         result.append(", elements: [");
         for(int i = 0; i < iSize - 1; i++){
