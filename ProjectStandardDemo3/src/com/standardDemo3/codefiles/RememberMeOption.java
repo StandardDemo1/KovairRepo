@@ -8,7 +8,7 @@ public class RememberMeOption {
 	    // class constant for default size 6 
 	    private static final int DEFAULT_CAP = 10;
 	    
-	    //instance variables
+	    //instance variables US9
 	    // iValues store the elements of the list and 1
 	    // may have extra capacity
 	    private Object[] iValues;
