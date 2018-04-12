@@ -36,7 +36,7 @@ public class ForgotPasswordOption {
 	    while (st.hasMoreTokens()) {
 		s2 = st.nextToken();
 		numTokens++;
-		System.out.println ("    Token " + numTokens + " is: " + s2); //
+		System.out.println ("    Token " + numTokens + " is: " + s2); 
 	    }
 	}
 
