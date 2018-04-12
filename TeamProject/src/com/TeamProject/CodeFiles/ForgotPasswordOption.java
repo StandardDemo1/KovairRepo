@@ -27,8 +27,9 @@ public class ForgotPasswordOption {
 
 	    System.out.println ("The line has " + s2.length() + " characters");
 
-	    System.out.println ();
-	    System.out.println ("Breaking the line into tokens we get:");
+	  /*  System.out.println ();
+	    System.out.println ("Breaking the line into tokens we get:");*/
+	    //Comment ID : 639
 
 	    int numTokens = 0;
 	    StringTokenizer st = new StringTokenizer (s2);
@@ -36,7 +37,7 @@ public class ForgotPasswordOption {
 	    while (st.hasMoreTokens()) {
 		s2 = st.nextToken();
 		numTokens++;
-		System.out.println ("    Token " + numTokens + " is: " + s2); ///
+		System.out.println ("    Token " + numTokens + " is: " + s2); //
 	    }
 	}
 
