@@ -23,15 +23,15 @@ public class ForgotPasswordOption {
 	    
 	    /* Following line triggers the error.  Error will show the type of
 	       unhandled exception and where the call occurs */
-	    s1 = br.readLine();
+	    s2 = br.readLine();
 
-	    System.out.println ("The line has " + s1.length() + " characters");
+	    System.out.println ("The line has " + s2.length() + " characters");
 
 	    System.out.println ();
 	    System.out.println ("Breaking the line into tokens we get:");
 
 	    int numTokens = 0;
-	    StringTokenizer st = new StringTokenizer (s1);
+	    StringTokenizer st = new StringTokenizer (s2);
 
 	    while (st.hasMoreTokens()) {
 		s2 = st.nextToken();
