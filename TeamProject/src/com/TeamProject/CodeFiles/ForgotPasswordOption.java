@@ -16,7 +16,7 @@ public class ForgotPasswordOption {
 
 	    double num1, num2, products;
 
-	    // set up the buffered reader to read from the keyboard
+	    /// set up the buffered reader to read from the keyboard
 	    BufferedReader br = new BufferedReader (new InputStreamReader (System.in));
 
 	    System.out.println ("Enter a line of input");
