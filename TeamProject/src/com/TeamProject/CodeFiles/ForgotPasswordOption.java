@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class ForgotPasswordOption {
 
 	public static void main(String[] args) throws IOException {
-		/// TODO Auto-generated method stub add
+		/// TODO Auto-generated method stub add comments added
 		String s3;
 	    String s2;
 
