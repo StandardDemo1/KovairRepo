@@ -4,7 +4,7 @@ public class UserList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("Yo");
+		System.out.print("Demo");
 	}
 
 }
